@@ -132,11 +132,11 @@
 
 
 
-originalstring = input("Enter a string to reverse: ")
-originallist = list(originalstring)
-emptylist = []
+# originalstring = input("Enter a string to reverse: ")
+# originallist = list(originalstring)
+# emptylist = []
 
-for i in originallist:
-    emptylist.insert(0, i)
+# for i in originallist:
+#     emptylist.insert(0, i)
 
-print("".join(emptylist))
+# print("".join(emptylist))
