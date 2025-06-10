@@ -122,6 +122,14 @@
 
 
 
+# # Ask the user for a number and tell them if it is even or odd.
+
+
+# number = int(input("Enter a number: "))
+# if number % 2 == 0:
+#     print(f"Output: {number} is Even.")
+# else:
+#     print(f"Output: {number} is odd.")
 
 
 
@@ -132,11 +140,31 @@
 
 
 
-# originalstring = input("Enter a string to reverse: ")
-# originallist = list(originalstring)
-# emptylist = []
+# # Take 3 inputs and print the largest one.
 
-# for i in originallist:
-#     emptylist.insert(0, i)
 
-# print("".join(emptylist))
+# # method 1
+# numbers = list(map(int, input("Enter 3 numbers with space dividing: ").split()))
+# print(max(numbers), " is the largest.")
+
+
+# # method 2
+# numbers = list(map(int, input("Enter 3 numbers with space dividing: ").split()))
+# finalnumber = numbers[0]
+
+# for i in numbers:
+#     if i < finalnumber:
+#         i = finalnumber
+
+# print(finalnumber)
+
+
+
+
+
+
+
+
+
+
+# Ask the user for a number n, and print the sum from 1 to n.
