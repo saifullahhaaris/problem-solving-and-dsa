@@ -188,3 +188,180 @@ import java.util.Scanner;
 //        scanner.close();
 //    }
 //}
+
+
+
+
+
+
+
+
+
+
+//// Take 3 inputs and print the largest one.
+//
+//
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter 3 numbers with space dividing: ");
+//        String number = scanner.nextLine();
+//        String[] splitted = number.split(" ");
+//
+//        int[] intlist = new int[splitted.length];
+//        for (int i =0; i < splitted.length; i++){
+//             intlist[i] = Integer.parseInt(splitted[i]);
+//        }
+//
+//        int largest = intlist[0];
+//
+//        for (int i = 0; i<intlist.length; i++){
+//            if (intlist[i] > largest){
+//                largest = intlist[i];
+//            }
+//        }
+//        System.out.println(largest);
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+//// Ask the user for a number n, and print the sum from 1 to n.
+//
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//
+//        int sum = 0;
+//
+//        for (int i = 0 ; i<=number; i++){
+//            sum += i;
+//        }
+//        System.out.println(sum);
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+//// Input a number and say whether it is +ve, -ve, or zero.
+//
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        while (true){
+//            System.out.println("Enter 'q' to quit or any letter to continue: ");
+//            String continu = scanner.nextLine();
+//
+//            if (continu.equalsIgnoreCase("q")){
+//                System.out.println("Have a great day!");
+//                break;
+//            }
+//
+//            System.out.println("Enter a number: ");
+//
+//            try {
+//                int number = scanner.nextInt();
+//                scanner.nextLine();
+//
+//                if (number > 0) {
+//                    System.out.println("Positive number");
+//                } else if (number < 0) {
+//                    System.out.println("Negative number");
+//                } else {
+//                    System.out.println("Zero");
+//                }
+//            } catch (Exception e) {
+//                System.out.println("Please Enter a number");
+//                scanner.nextLine();
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+//// Ask for two numbers and an operator (+, -, , /) and show the result.
+//
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        calulator();
+//    }
+//    public static void calulator (){
+//        Scanner scanner = new Scanner(System.in);
+//
+//        while (true){
+//            System.out.println("Enter 'q' to quit or any letter to continue: ");
+//            String continu = scanner.nextLine();
+//            if (continu.equalsIgnoreCase("q")) {
+//                System.out.println("Have a great day!");
+//                break;
+//
+//            }else {
+//                System.out.println("Please enter first number: ");
+//                int firstNumber = scanner.nextInt();
+//
+//                System.out.println("Please enter second number: ");
+//                int secondNumber = scanner.nextInt();
+//                scanner.nextLine();
+//
+//                System.out.println("Please enter the operation(+, -, *, /): ");
+//                String operation = scanner.nextLine();
+//
+//                if (operation.equals("+")) {
+//                    System.out.println(firstNumber + secondNumber);
+//                } else if (operation.equals("-")) {
+//                    System.out.println(firstNumber - secondNumber);
+//                } else if (operation.equals("*")) {
+//                    System.out.println(firstNumber * secondNumber);
+//                } else if (operation.equals("/")) {
+//                    try {
+//                        System.out.println(firstNumber / secondNumber);
+//                    } catch (ArithmeticException e) {
+//                        System.out.println("first number can't be divided by 0");
+//                    }
+//                } else {
+//                    System.out.println("Please enter a valid operator (+, -, *, /)");
+//                }
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+

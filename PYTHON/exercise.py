@@ -187,6 +187,33 @@
 
 
 
+# # Input a number and say whether it is Positive, Negative, or Zero
+
+# while True:
+#     startexit = input("Enter 'q' to quit or any letter to continue: ").lower()
+#     if startexit == 'q':
+#         print("Have a great day!")
+#         break
+#     try:
+#         number = int(input("Enter a number: "))
+#         if number > 0:
+#             print("Positive number")
+#         elif number < 0:
+#             print("Negative number")
+#         else:
+#             print("Zero")
+#     except ValueError:
+#         print("Please enter a NUMBER!")
+
+
+
+
+
+
+
+
+
+
 # # Simple Calculator(Ask for two numbers and an operator (+, -, , /) and show the result.)
 
 
@@ -231,23 +258,7 @@
 
 
 
-# # Input a number and say whether it is Positive, Negative, or Zero
 
-# while True:
-#     startexit = input("Enter 'q' to quit or any letter to continue: ").lower()
-#     if startexit == 'q':
-#         print("Have a great day!")
-#         break
-#     try:
-#         number = int(input("Enter a number: "))
-#         if number > 0:
-#             print("Positive number")
-#         elif number < 0:
-#             print("Negative number")
-#         else:
-#             print("Zero")
-#     except ValueError:
-#         print("Please enter a NUMBER!")
 
 
 
