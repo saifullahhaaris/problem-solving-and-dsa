@@ -170,23 +170,21 @@ import java.util.Scanner;
 
 
 
-
-
-
-
-
-
-
-
-
-public class Main {
-    public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-
-        for (int i = 0; i  numbers.length; i++){
-            if (numbers[i] % 2 == 0){
-                System.out.println(numbers[i] + " is a even number");
-            }
-        }
-    }
-}
+//// Ask the user for a number and tell them if it is even or odd.
+//
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter a number: ");
+//        int number = scanner.nextInt();
+//
+//        if (number % 2 == 0) {
+//            System.out.println(number + " is a even number!");
+//        } else {
+//            System.out.println(number + " is a odd number");
+//        }
+//        scanner.close();
+//    }
+//}
